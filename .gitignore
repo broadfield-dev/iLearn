@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Environment & Data
+.env
+.venv
+app_data/
+sentence_transformer_cache/
