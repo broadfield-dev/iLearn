@@ -1,0 +1,135 @@
+{
+  "groq": {
+    "default": "llama3-8b-8192",
+    "models": {
+      "Llama 3 8B (Groq)": "llama3-8b-8192",
+      "Llama 3 70B (Groq)": "llama3-70b-8192",
+      "Mixtral 8x7B (Groq)": "mixtral-8x7b-32768",
+      "Gemma 7B (Groq)": "gemma-7b-it",
+      "Gemma 2 9B (Groq)": "gemma-2-9b-it",
+      "Llama 3.1 8B (Groq)": "llama-3.1-8b-instruct",
+      "Llama 3.1 70B (Groq)": "llama-3.1-70b-instruct",
+      "Qwen 2 7B (Groq)": "qwen-2-7b-instruct",
+      "Qwen 2 72B (Groq)": "qwen-2-72b-instruct",
+      "Mistral 7B Instruct v0.3 (Groq)": "mistral-7b-instruct-v0.3",
+      "Falcon 7B (Groq)": "falcon-7b-instruct",
+      "Falcon 40B (Groq)": "falcon-40b-instruct",
+      "Grok 1.5 Flash (Groq) $": "grok-1.5-flash",
+      "Grok 3 (Groq) $$": "grok-3",
+      "DeepSeek R-1 7B (Groq)": "deepseek-r-1-7b-instruct"
+    }
+  },
+    "cohere": {
+    "default": "command-r",
+    "models": {
+      "Command Light (Cohere)": "command-light",
+      "Command (Cohere)": "command",
+      "Command R (Cohere)": "command-r",
+      "Command R+ (Cohere) $": "command-r-plus",
+      "Classify (Cohere) $": "classify",
+      "Embed English v3.0 (Cohere) $": "embed-english-v3.0",
+      "Embed Multilingual v3.0 (Cohere) $": "embed-multilingual-v3.0",
+      "Command Nightly (Cohere) $": "command-nightly",
+      "Command R 08-2024 (Cohere) $": "command-r-08-2024",
+      "Command R+ 08-2024 (Cohere) $$": "command-r-plus-08-2024",
+      "Embed English Light v3.0 (Cohere) $": "embed-english-light-v3.0",
+      "Embed Multilingual Light v3.0 (Cohere) $": "embed-multilingual-light-v3.0",
+      "Command R 03-2024 (Cohere) $": "command-r-03-2024",
+      "Command Light Nightly (Cohere) $": "command-light-nightly",
+      "Classify v2 (Cohere) $$": "classify-v2"
+    }
+  },
+  
+  "google": {
+    "default": "gemini-1.5-flash-latest",
+    "models": {
+      "Gemini 1.5 Flash (Latest)": "gemini-1.5-flash-latest",
+      "Gemini 1.0 Pro": "gemini-pro",
+      "Gemma 7B Instruct": "gemma-7b-it",
+      "Gemma 2 9B Instruct": "gemma-2-9b-it",
+      "CodeGemma 7B": "codegemma-7b",
+      "Gemini 1.5 Pro (Latest) $": "gemini-1.5-pro-latest",
+      "Gemini 1.5 Flash 8B $": "gemini-1.5-flash-8b",
+      "Gemini 1.0 Ultra $$": "gemini-ultra",
+      "Gemini 1.5 Pro Experimental $$": "gemini-1.5-pro-exp",
+      "Gemini 1.5 Flash Experimental $$": "gemini-1.5-flash-exp",
+      "Gemini 1.5 Pro Reasoning $$": "gemini-1.5-pro-reasoning",
+      "Gemini 1.5 Flash Reasoning $$": "gemini-1.5-flash-reasoning",
+      "Gemini 1.5 Pro Vision $$": "gemini-1.5-pro-vision",
+      "Gemini 1.5 Flash Vision $$": "gemini-1.5-flash-vision",
+      "CodeGemma 7B Instruct $$": "codegemma-7b-instruct"
+    }
+  },
+
+
+  "openai": {
+    "default": "gpt-4o-mini",
+    "models": {
+      "GPT-3.5 Turbo (OpenAI)": "gpt-3.5-turbo",
+      "GPT-4o mini (OpenAI) $": "gpt-4o-mini",
+      "GPT-4 Turbo (OpenAI) $$": "gpt-4-turbo",
+      "GPT-4o (OpenAI) $$$": "gpt-4o",
+      "GPT-4 (OpenAI) $$$": "gpt-4",
+      "GPT-3.5 Turbo 0125 (OpenAI) $": "gpt-3.5-turbo-0125",
+      "GPT-4o 2024-05-13 (OpenAI) $$$": "gpt-4o-2024-05-13",
+      "GPT-4 Turbo Preview (OpenAI) $$": "gpt-4-turbo-preview",
+      "GPT-3.5 Turbo Instruct (OpenAI) $": "gpt-3.5-turbo-instruct",
+      "GPT-4 32k (OpenAI) $$$": "gpt-4-32k",
+      "GPT-4o mini 2024-07-18 (OpenAI) $": "gpt-4o-mini-2024-07-18",
+      "GPT-4 Vision Preview (OpenAI) $$$": "gpt-4-vision-preview",
+      "GPT-3.5 Turbo 1106 (OpenAI) $": "gpt-3.5-turbo-1106",
+      "GPT-4 0613 (OpenAI) $$$": "gpt-4-0613",
+      "GPT-4o 2024-08-08 (OpenAI) $$$": "gpt-4o-2024-08-08"
+    }
+  },
+"openrouter": {
+    "default": "mistralai/mistral-7b-instruct:free",
+    "models": {
+      "Mistral 7B Instruct (Free/OpenRouter)": "mistralai/mistral-7b-instruct:free",
+      "Gemma 7B Instruct (Free/OpenRouter)": "google/gemma-7b-it:free",
+      "Llama 3 8B Instruct (Free/OpenRouter)": "meta-llama/llama-3-8b-instruct:free",
+      "Nous Llama 3 8B Instruct (OpenRouter)": "nousresearch/llama-3-8b-instruct",
+      "Mistral 7B Instruct v0.3 (OpenRouter)": "mistralai/mistral-7b-instruct-v0.3",
+      "Gemma 2 9B Instruct (OpenRouter)": "google/gemma-2-9b-it",
+      "Llama 3.1 8B Instruct (OpenRouter)": "meta-llama/llama-3.1-8b-instruct",
+      "Qwen 2 7B Instruct (OpenRouter)": "qwen/qwen-2-7b-instruct",
+      "Falcon 7B Instruct (OpenRouter)": "tiiuae/falcon-7b-instruct",
+      "DeepSeek R-1 7B (OpenRouter)": "deepseek/r-1-7b-instruct",
+      "Llama 3.1 70B Instruct (OpenRouter) $": "meta-llama/llama-3.1-70b-instruct",
+      "Mixtral 8x7B Instruct v0.1 (OpenRouter) $": "mistralai/mixtral-8x7b-instruct",
+      "Qwen 2 72B Instruct (OpenRouter) $": "qwen/qwen-2-72b-instruct",
+      "OpenAI GPT-4o mini (OpenRouter) $$": "openai/gpt-4o-mini",
+      "OpenAI GPT-4o (OpenRouter) $$$": "openai/gpt-4o",
+      "Claude 3.5 Sonnet (OpenRouter) $$$": "anthropic/claude-3.5-sonnet"
+    }
+  },
+  "togetherai": {
+    "default": "meta-llama/Llama-3-8b-chat-hf",
+    "models": {
+      "Llama 3 8B Chat (TogetherAI)": "meta-llama/Llama-3-8b-chat-hf",
+      "Gemma 7B Instruct (TogetherAI)": "google/gemma-7b-it",
+      "Mistral 7B Instruct v0.2 (TogetherAI)": "mistralai/Mistral-7B-Instruct-v0.2",
+      "Qwen 2 7B Chat (TogetherAI)": "qwen/Qwen-2-7B-Chat",
+      "Falcon 7B Instruct (TogetherAI)": "tiiuae/falcon-7b-instruct",
+      "DeepSeek R-1 7B (TogetherAI)": "deepseek/r-1-7b-instruct",
+      "Llama 3.1 8B Instruct (TogetherAI)": "meta-llama/Llama-3.1-8b-instruct",
+      "Gemma 2 9B Instruct (TogetherAI)": "google/gemma-2-9b-it",
+      "Llama 3 70B Chat (TogetherAI) $": "meta-llama/Llama-3-70b-chat-hf",
+      "Mixtral 8x7B Instruct (TogetherAI) $": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "Qwen 2 72B Chat (TogetherAI) $": "qwen/Qwen-2-72B-Chat",
+      "Falcon 40B Instruct (TogetherAI) $": "tiiuae/falcon-40b-instruct",
+      "Llama 3.1 70B Instruct (TogetherAI) $$": "meta-llama/Llama-3.1-70b-instruct",
+      "Mistral 8x22B Instruct (TogetherAI) $$": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "DeepSeek R-2 72B (TogetherAI) $$": "deepseek/r-2-72b-instruct",
+      "CodeLlama 34B Instruct (TogetherAI) $": "codellama/CodeLlama-34b-Instruct-hf"
+    }
+  },
+  
+  "xai": {
+    "default": "grok-1.5-flash",
+    "models": {
+      "Grok 1.5 Flash (xAI) $": "grok-1.5-flash",
+      "Grok 3 (xAI) $$": "grok-3"
+    }
+  }
+}
