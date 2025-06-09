@@ -6,11 +6,11 @@ with open('requirements.txt') as f:
 setup(
     name='ilearn-memory',
     version='1.0.0',
-    author='iLearn Author',
+    author='broadfield-dev',
     description='A library for a self-improving AI memory system with dual-memory (Memories & Rules) and a reflective learning loop.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/your-username/ilearn_memory_package', # Replace with your repo URL
+    url='https://github.com/broadfield-dev/ilearn-memory',
     packages=find_packages(),
     install_requires=requirements,
     include_package_data=True,
