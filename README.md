@@ -76,26 +76,25 @@ The **MCP Loop** connects these components: An agent acts, records the outcome (
 
 3.  **Create `.env` File**:
     Create a file named `.env` in your project's root directory and add your configuration.
-    ```env
-    # --- API KEYS (Fill in at least one provider you intend to use) ---
+    
+## API KEYS (Fill in at least one provider you intend to use)
+```python
     GROQ_API_KEY="gsk_..."
     OPENAI_API_KEY="sk_..."
     GOOGLE_API_KEY="AIza..."
     # Required for the HF_DATASET backend
-    HF_TOKEN="hf_..." 
-
-    # --- STORAGE CONFIGURATION ---
-    # Options: RAM, SQLITE, HF_DATASET
+    HF_TOKEN="hf_..."
+```
+## STORAGE CONFIGURATION
+```python
+    #Options: RAM, SQLITE, HF_DATASET
     STORAGE_BACKEND="SQLITE" 
-    SQLITE_DB_PATH="data/ai_memory.db"
-    
-    # Optional: For HF_DATASET backend
-    # HF_MEMORY_DATASET_REPO="your-hf-username/memories-repo"
-    # HF_RULES_DATASET_REPO="your-hf-username/rules-repo"
-    ```
-
+    SQLITE_DB_PATH="data/ai_memory.db" 
+    #Optional: For HF_DATASET backend
+    #HF_MEMORY_DATASET_REPO="your-hf-username/memories-repo"
+    #HF_RULES_DATASET_REPO="your-hf-username/rules-repo"
+```
 ---
-
 ## 🐍 Usage Example
 
 Below is an example script (`example.py`) demonstrating how to use the `ilearn-memory` library to build a simple agent that learns from an interaction.
@@ -156,6 +155,7 @@ async def main():
     print()
 
     # 3. Store the interaction as a 'memory'
+
     interaction_summary = f"User asked '{user_query}', AI responded '{bot_response}'"
     metrics = {"takeaway": "Provided a direct factual answer but was a bit wordy."}
     ilearn_memory.add_memory_entry(user_query, metrics, bot_response)
